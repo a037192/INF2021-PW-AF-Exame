@@ -18,15 +18,15 @@ RestaurantePratoController
 # React
 
 ![c](https://user-images.githubusercontent.com/83921757/123973298-90676280-d9b3-11eb-83c7-2131b720525a.png)
-Lista reservas
+> Lista reservas
 ![d](https://user-images.githubusercontent.com/83921757/123973299-90676280-d9b3-11eb-8c97-aa6558830d22.png)
-Criar reserva
+> Criar reserva
 ![e](https://user-images.githubusercontent.com/83921757/123973302-90fff900-d9b3-11eb-8977-4eab31ba5ae8.png)
-Editar reserva
+> Editar reserva
 ![f](https://user-images.githubusercontent.com/83921757/123973303-90fff900-d9b3-11eb-97b7-df69de842c72.png)
-DashBoard- Grafico de ocupação por dia
+> DashBoard- Grafico de ocupação por dia
 ![g](https://user-images.githubusercontent.com/83921757/123973306-91988f80-d9b3-11eb-82bc-fd67a3bf09b0.png)
-DashBoard- Grafico de ocupação por cliente
+> DashBoard- Grafico de ocupação por cliente
 
 # Postman
 
