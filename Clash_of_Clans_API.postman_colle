@@ -1,0 +1,287 @@
+{
+	"info": {
+		"_postman_id": "6c1febc0-fc3b-4491-94bf-fecc3f34262b",
+		"name": "Clash",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ver informação clans",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjExNzQ3MjA0LTU1MTItNDk0YS04MTZiLTZjMTgxMzcwM2MxYiIsImlhdCI6MTYyNDk4NjkzNywic3ViIjoiZGV2ZWxvcGVyLzZhNmNjNGE5LWM1MjYtNDE3Yy0yNTQyLThjZmRmNDU2ZTAwYSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE3Ni43OS4xNDMuNjQiXSwidHlwZSI6ImNsaWVudCJ9XX0.gWCsddPIvaSJjbmyXO_GsBeTiDah9AltlNbBloIpBLr0mUrhdxLHWNiEpK8aLQmqIXHXBMkBkOtEDQN9qRD1PQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.clashofclans.com/v1/clans?name=AMBC%20%26%20KCM",
+					"protocol": "https",
+					"host": [
+						"api",
+						"clashofclans",
+						"com"
+					],
+					"path": [
+						"v1",
+						"clans"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "AMBC%20%26%20KCM"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver perfil",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjExNzQ3MjA0LTU1MTItNDk0YS04MTZiLTZjMTgxMzcwM2MxYiIsImlhdCI6MTYyNDk4NjkzNywic3ViIjoiZGV2ZWxvcGVyLzZhNmNjNGE5LWM1MjYtNDE3Yy0yNTQyLThjZmRmNDU2ZTAwYSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE3Ni43OS4xNDMuNjQiXSwidHlwZSI6ImNsaWVudCJ9XX0.gWCsddPIvaSJjbmyXO_GsBeTiDah9AltlNbBloIpBLr0mUrhdxLHWNiEpK8aLQmqIXHXBMkBkOtEDQN9qRD1PQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.clashofclans.com/v1/players/%238VU2PLRGU",
+					"protocol": "https",
+					"host": [
+						"api",
+						"clashofclans",
+						"com"
+					],
+					"path": [
+						"v1",
+						"players",
+						"%238VU2PLRGU"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "adicionar token",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjExNzQ3MjA0LTU1MTItNDk0YS04MTZiLTZjMTgxMzcwM2MxYiIsImlhdCI6MTYyNDk4NjkzNywic3ViIjoiZGV2ZWxvcGVyLzZhNmNjNGE5LWM1MjYtNDE3Yy0yNTQyLThjZmRmNDU2ZTAwYSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE3Ni43OS4xNDMuNjQiXSwidHlwZSI6ImNsaWVudCJ9XX0.gWCsddPIvaSJjbmyXO_GsBeTiDah9AltlNbBloIpBLr0mUrhdxLHWNiEpK8aLQmqIXHXBMkBkOtEDQN9qRD1PQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.clashofclans.com/v1/players/%238VU2PLRGU/verifytoken",
+					"protocol": "https",
+					"host": [
+						"api",
+						"clashofclans",
+						"com"
+					],
+					"path": [
+						"v1",
+						"players",
+						"%238VU2PLRGU",
+						"verifytoken"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver um clan e seus menbros",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjExNzQ3MjA0LTU1MTItNDk0YS04MTZiLTZjMTgxMzcwM2MxYiIsImlhdCI6MTYyNDk4NjkzNywic3ViIjoiZGV2ZWxvcGVyLzZhNmNjNGE5LWM1MjYtNDE3Yy0yNTQyLThjZmRmNDU2ZTAwYSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE3Ni43OS4xNDMuNjQiXSwidHlwZSI6ImNsaWVudCJ9XX0.gWCsddPIvaSJjbmyXO_GsBeTiDah9AltlNbBloIpBLr0mUrhdxLHWNiEpK8aLQmqIXHXBMkBkOtEDQN9qRD1PQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.clashofclans.com/v1/clans/%238RGLL2CJ",
+					"protocol": "https",
+					"host": [
+						"api",
+						"clashofclans",
+						"com"
+					],
+					"path": [
+						"v1",
+						"clans",
+						"%238RGLL2CJ"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver top 10 do clan",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjExNzQ3MjA0LTU1MTItNDk0YS04MTZiLTZjMTgxMzcwM2MxYiIsImlhdCI6MTYyNDk4NjkzNywic3ViIjoiZGV2ZWxvcGVyLzZhNmNjNGE5LWM1MjYtNDE3Yy0yNTQyLThjZmRmNDU2ZTAwYSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE3Ni43OS4xNDMuNjQiXSwidHlwZSI6ImNsaWVudCJ9XX0.gWCsddPIvaSJjbmyXO_GsBeTiDah9AltlNbBloIpBLr0mUrhdxLHWNiEpK8aLQmqIXHXBMkBkOtEDQN9qRD1PQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.clashofclans.com/v1/clans/%238RGLL2CJ/members?limit=10",
+					"protocol": "https",
+					"host": [
+						"api",
+						"clashofclans",
+						"com"
+					],
+					"path": [
+						"v1",
+						"clans",
+						"%238RGLL2CJ",
+						"members"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver neveis de liga",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjExNzQ3MjA0LTU1MTItNDk0YS04MTZiLTZjMTgxMzcwM2MxYiIsImlhdCI6MTYyNDk4NjkzNywic3ViIjoiZGV2ZWxvcGVyLzZhNmNjNGE5LWM1MjYtNDE3Yy0yNTQyLThjZmRmNDU2ZTAwYSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE3Ni43OS4xNDMuNjQiXSwidHlwZSI6ImNsaWVudCJ9XX0.gWCsddPIvaSJjbmyXO_GsBeTiDah9AltlNbBloIpBLr0mUrhdxLHWNiEpK8aLQmqIXHXBMkBkOtEDQN9qRD1PQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.clashofclans.com/v1/leagues",
+					"protocol": "https",
+					"host": [
+						"api",
+						"clashofclans",
+						"com"
+					],
+					"path": [
+						"v1",
+						"leagues"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver localização",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjExNzQ3MjA0LTU1MTItNDk0YS04MTZiLTZjMTgxMzcwM2MxYiIsImlhdCI6MTYyNDk4NjkzNywic3ViIjoiZGV2ZWxvcGVyLzZhNmNjNGE5LWM1MjYtNDE3Yy0yNTQyLThjZmRmNDU2ZTAwYSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE3Ni43OS4xNDMuNjQiXSwidHlwZSI6ImNsaWVudCJ9XX0.gWCsddPIvaSJjbmyXO_GsBeTiDah9AltlNbBloIpBLr0mUrhdxLHWNiEpK8aLQmqIXHXBMkBkOtEDQN9qRD1PQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.clashofclans.com/v1/locations",
+					"protocol": "https",
+					"host": [
+						"api",
+						"clashofclans",
+						"com"
+					],
+					"path": [
+						"v1",
+						"locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ver ranking de jogador por pais",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "ver ranking de clans por pais",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjExNzQ3MjA0LTU1MTItNDk0YS04MTZiLTZjMTgxMzcwM2MxYiIsImlhdCI6MTYyNDk4NjkzNywic3ViIjoiZGV2ZWxvcGVyLzZhNmNjNGE5LWM1MjYtNDE3Yy0yNTQyLThjZmRmNDU2ZTAwYSIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjE3Ni43OS4xNDMuNjQiXSwidHlwZSI6ImNsaWVudCJ9XX0.gWCsddPIvaSJjbmyXO_GsBeTiDah9AltlNbBloIpBLr0mUrhdxLHWNiEpK8aLQmqIXHXBMkBkOtEDQN9qRD1PQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.clashofclans.com/v1/locations/32000188/rankings/clans",
+					"protocol": "https",
+					"host": [
+						"api",
+						"clashofclans",
+						"com"
+					],
+					"path": [
+						"v1",
+						"locations",
+						"32000188",
+						"rankings",
+						"clans"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
