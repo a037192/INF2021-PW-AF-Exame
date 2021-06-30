@@ -48,4 +48,8 @@
 - O método “GET” foi utilizado ver a reserva
 
 
+# Realização
 
+> Trabalho realizado por:
+ - David Pinto n: a036218
+ - Paulo Cardoso n: a037192
