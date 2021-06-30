@@ -1,6 +1,6 @@
 # Restaurante
 
-	O nosso objetivo com este trabalho é estudar, desenhar e desenvolver aplicações e serviços Web
+>	O nosso objetivo com este trabalho é estudar, desenhar e desenvolver aplicações e serviços Web
 
 	Ao longo do nosso trabalho tentamos aplicar e demonstrar todos os nossos conhecimentos e competências adquiridas ao longo das aulas de programação web.
 
