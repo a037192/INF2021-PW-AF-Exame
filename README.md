@@ -2,11 +2,11 @@
 
 >	O nosso objetivo com este trabalho é estudar, desenhar e desenvolver aplicações e serviços Web
 
--	Ao longo do nosso trabalho tentamos aplicar e demonstrar todos os nossos conhecimentos e competências adquiridas ao longo das aulas de programação web.
+>	Ao longo do nosso trabalho tentamos aplicar e demonstrar todos os nossos conhecimentos e competências adquiridas ao longo das aulas de programação web.
 
-	O nosso trabalho tem como tema uma API para reserva de mesa de um restaurante.
+>	O nosso trabalho tem como tema uma API para reserva de mesa de um restaurante.
 
-	O nosso trabalho para alem da API também tem como objetivo a criação de uma aplicação web.
+>	O nosso trabalho para alem da API também tem como objetivo a criação de uma aplicação web.
 
 # API
 
@@ -19,14 +19,19 @@ RestaurantePratoController
 
 ![c](https://user-images.githubusercontent.com/83921757/123973298-90676280-d9b3-11eb-83c7-2131b720525a.png)
 - Lista reservas
+- 
 ![d](https://user-images.githubusercontent.com/83921757/123973299-90676280-d9b3-11eb-8c97-aa6558830d22.png)
 - Criar reserva
+- 
 ![e](https://user-images.githubusercontent.com/83921757/123973302-90fff900-d9b3-11eb-8977-4eab31ba5ae8.png)
 - Editar reserva
+- 
 ![f](https://user-images.githubusercontent.com/83921757/123973303-90fff900-d9b3-11eb-97b7-df69de842c72.png)
+-
 - DashBoard- Grafico de ocupação por dia
 ![g](https://user-images.githubusercontent.com/83921757/123973306-91988f80-d9b3-11eb-82bc-fd67a3bf09b0.png)
-- DashBoard- Grafico de ocupação por cliente
+-
+-  DashBoard- Grafico de ocupação por cliente
 
 # Postman
 
